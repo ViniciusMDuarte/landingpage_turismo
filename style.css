@@ -1,0 +1,83 @@
+
+.background-image {
+
+    background: #000 url(./img/prainhas-pontal-do-atalaia.jpg) no-repeat center;
+    background-size:100%;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.paralax {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.100);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paralax-content {
+    padding: 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 58px;
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 14px;
+    color: rgb(32, 31, 31);
+    font-weight: normal;
+
+}
+h3 {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+
+
+input {
+    width:430px;
+    display: flex;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+
+}
+button {
+    width:450px;
+    padding: 20px;
+    border: 1px solid #32cd32;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: #32cd32;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #26a326;
+}
+
+
+
